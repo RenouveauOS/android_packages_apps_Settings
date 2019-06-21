@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015 The ResurrectionRemix Project
+<!-- Copyright (C) 2019 Renouveau
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -14,14 +14,14 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="rr_mod_version">RR-OS version</string>
+    <string name="rr_mod_version">Renouveau version</string>
     <string name="build_date">Build date</string>
     <string name="mod_version_default">Default</string>
 
     <!-- General -->
     <string name="ok">Okay</string>
     <string name="reset">Reset</string>
-    <string name="dlg_reset_rr">RR</string>
+    <string name="dlg_reset_rr">Renouveau</string>
     <string name="dlg_reset_android">Default</string>
     <string name="default_string">Default</string>
     <string name="add">Add</string>
@@ -32,14 +32,14 @@
     <string name="attention">Attention</string>
     <string name="restart_systemui">Restart UI</string>
 
-    <!-- About RR -->
+    <!-- About Renouveau -->
     <string name="about_rr_settings">About</string>
     <string name="about_rr">About</string>
     <string name="about_rr_summary">@null</string>
-    <string name="about_r0m_summary">Everything about the Resurrection Remix OS</string>
+    <string name="about_r0m_summary">Everything about Renouveau</string>
     <string name="rr_donate">Donate to development</string>
-    <string name="rr_donate_summary">Show your support to Resurrection Remix OS</string>
-    <string name="app_name">Resurrection Remix OS</string>
+    <string name="rr_donate_summary">Show your support for Renouveau</string>
+    <string name="app_name">Renouveau</string>
 
    <!-- Advanced night mode brightness -->
    <string name="night_brightness_category">Brightness</string>
@@ -121,11 +121,11 @@
     <string name="github_mracar">https://github.com/mracar07</string> 
     <string name="rr">Links</string>
     <string name="rr_website_title">Website</string>
-    <string name="rr_website_summary">Get more information about Resurrection Remix OS</string>
+    <string name="rr_website_summary">Get more information about Renouveau</string>
     <string name="rr_telegram_title">Telegram</string>
     <string name="rr_telegram_summary">Telegram on topic chat</string>
     <string name="rr_source_title">Github</string>
-    <string name="rr_source_summary">Resurrection Remix OS sources</string>
+    <string name="rr_source_summary">Renouveau sources</string>
     <string name="rr_facebook_title">Facebook</string>
     <string name="rr_facebook_summary">Facebook community</string>
     <string name="rr_google_plus_title">Google</string>
@@ -155,9 +155,9 @@
     <string name="support_team_title">Moderator Tag</string>
 
     <string name="device_maintainers_title">Devices and maintainers</string>
-    <string name="device_maintainers_title_summary">List of devices and their official RR-OS maintainers</string>
+    <string name="device_maintainers_title_summary">List of devices and their official Renouveau maintainers</string>
     <string name="maintainers_note_title">Note</string>
-    <string name="maintainers_note_title_summary">Make a pull request on Settings app with your name against your device if you want to apply to be a maintainer for a certain device</string>
+    <string name="maintainers_note_title_summary">Make a pull request to the Settings app with your name against your device if you want to apply to be a maintainer for a certain device</string>
     <string name="device_summary"><xliff:g example="goldfish" id="codename">%1$s</xliff:g>\nMaintainer - <xliff:g example="deletescape" id="maintainer">%2$s</xliff:g></string>
 
     <!-- The Drill -->
@@ -188,20 +188,20 @@
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
     <string name="power_menu_lockdown_title">Lockdown</string>
 
-     <!-- About phone screen, RR version -->
-    <string name="rr_version">ResurrectionRemix version</string>
+     <!-- About phone screen, Renouveau version -->
+    <string name="rr_version">Renouveau version</string>
     <string name="rr_version_default">Unknown</string>
-    <string name="keywords_rr_version">rr version</string>
+    <string name="keywords_rr_version">renouveau version</string>
 
-    <!-- Share RR ROM -->
+    <!-- Share Renouveau -->
     <string name="share_rr">Share</string>
-    <string name="share_rr_summary">Let people know you use Resurrection Remix OS</string>
-    <string name="share_message">Try Resurrection Remix OS! https://plus.google.com/communities/109352646351468373340</string>
-    <string name="share_chooser_title">Share Resurrection Remix OS via...</string>
+    <string name="share_rr_summary">Let people know you use Renouveau</string>
+    <string name="share_message">Try Renouveau! https://discord.gg/JDvNyMv</string>
+    <string name="share_chooser_title">Share Renouveau via...</string>
 
-    <!-- RR Changelog-->
+    <!-- Renouveau Changelog-->
     <string name="changelog_title">Changelog</string>
-    <string name="changelog_title_summary">View recent changes in ROM</string>
+    <string name="changelog_title_summary">View recent changes in Renouveau</string>
     <string name="changelog_loading">Loading changelog...</string>
     <string name="changelog_error">Unable to load changelog</string>
     <string name="changelog_unknown">Unknown</string>
@@ -217,11 +217,11 @@
     <string name="changelog_time_2_weeks">Two weeks ago</string>
     <string name="changelog_time_3_weeks">Three weeks ago</string>
 
-    <!--RR Configurations-->
+    <!--Renouveau Configurations-->
     <string name="fab_updates">Updates</string>
     <string name="fab_restartui">Restart UI</string>
     <string name="fab_reset">Reset</string>
-    <string name="fab_about">About RR-OS</string>
+    <string name="fab_about">About Renouveau</string>
     <string name="fab_layout">Update layout</string>
     <string name="fab_layout_tabs">Toggle tabs layout</string>
     <string name="fab_layout_update">Toggle classic layout</string>
@@ -232,9 +232,9 @@
     <string name="rr_reset_cancel">Cancel</string>
 
     <string name="rr_category_title">Personalization</string>
-    <string name="rr_title">Resurrection tools</string>
+    <string name="rr_title">Renouveau Tools</string>
     <string name="rr_title_summary">ROM customizations</string>
-    <string name="rr_config_main_title">RR-OS</string>
+    <string name="rr_config_main_title">Renouveau</string>
     <string name="rr_ota_fab_title">Show floating button</string>
     <string name="rr_ota_fab_summary">Enable/disable to show/hide floating button in configurations. Enter/exit once when switch used</string>
     <string name="rr_statusbar_title">Status bar</string>
@@ -525,7 +525,7 @@
 
     <!--RR Configurations Summaries-->
     <string name="status_bar_clock_summary">Customize various elements of the statusbar clock </string>
-    <string name="status_bar_logo_summary">Enable or disable Resurrection logo in statusbar. Customize colour and position</string>
+    <string name="status_bar_logo_summary">Enable or disable Renouveau logo in statusbar. Customize colour and position</string>
     <string name="sb_custom_logos_summary">Enable or disable icons in statusbar. Customize their elements and position</string>
     <string name="rr_battery_summary">Customize battery elements in statusbar and also customize the batterybar</string>
     <string name="rr_sb_icons_summary">Enable or disable icons of your choice in statusbar</string>
@@ -660,7 +660,7 @@
     <string name="powermenu_title">Power menu</string>
     <string name="powermenu_reboot_title">Reboot</string>
     <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-    <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for options to reboot to recovery, bootloader, restart systemui or trigger a hot reboot</string>
+    <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for options to reboot to recovery, bootloader, restart System UI or trigger a hot reboot</string>
     <string name="powermenu_screenshot_title">Screenshot</string>
     <string name="powermenu_airplane_title">Airplane mode</string>
     <string name="powermenu_screenrecord_title">Screen Record</string>
@@ -1347,7 +1347,7 @@
     <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
 
     <!-- RR Settings tabs slide effects -->
-    <string name="tabs_effect_title">RR configuration tabs transition effect</string>
+    <string name="tabs_effect_title">Renouveau configuration tabs transition effect</string>
     <string name="effect_default">Default</string>
     <string name="effect_accordion">Accordion</string>
     <string name="effect_background_to_foreground">Background to foreground</string>
@@ -1910,14 +1910,14 @@
     <!-- RR config options -->
     <string name="rr_config_tabs_update_message">You are about to change layout to tabs (nougat) which was present in previous versions of RR-OS and is the default one. Are you sure you want to continue?</string>
     <string name="rr_config_classic_update_message">You are about to change layout to classic (marshmallow) which was present in previous versions of RR-OS. Are you sure you want to continue?</string>
-    <string name="rr_config_navigation_update_message">You are about to change layout to bottom navigation layout (oreo) which is a brand new layout in RR-OS configurations. It might be a little different that the usual layout. Are you sure you want to continue?</string>
+    <string name="rr_config_navigation_update_message">You are about to change layout to bottom navigation layout (oreo) which is a brand new layout in RR-OS configurations. It might be a little different than the usual layout. Are you sure you want to continue?</string>
     <string name="rr_config_navigation_color_enable_title">Enable custom navigation color</string>
     <string name="rr_config_navigation_color_enabled">Enable custom color for bottom navigtation in RR</string>
     <string name="rr_config_navigation_color_title">Custom bottom navigation color</string>
 
-     <!-- RR summary text -->
-    <string name="rr_settings_summary_title">Custom RR summary text in Settings application</string>
-    <string name="custom_summary_title">Custom RR summary</string>
+     <!-- Renouveau summary text -->
+    <string name="rr_settings_summary_title">Custom Renouveau summary text in Settings application</string>
+    <string name="custom_summary_title">Custom Renouveau summary</string>
     <string name="custom_summary_explain">Please enter a new summary. Leave blank to revert to stock text.</string>
 
     <string name="custom_summary_randomize_title">Randomize summary</string>
