@@ -40,7 +40,7 @@
         android:title="@string/device_category_samsung_title">
 
         <com.android.settings.rr.Preferences.DevicePreference
-            android:id=""
+            android:id="@+id/device_nobleltetmo"
             android:title="@string/device_nobleltetmo"
             app:codename="@string/device_nobleltetmo_codename"
             app:maintainer="@string/device_nobleltetmo_maintainer"
@@ -53,7 +53,7 @@
         android:title="@string/device_category_sony_title">
 
         <com.android.settings.rr.Preferences.DevicePreference
-            android:id=""
+            android:id="@+id/device_pioneer"
             android:title="@string/device_pioneer"
             app:codename="@string/device_pioneer_codename"
             app:maintainer="@string/device_pioneer_maintainer"
@@ -66,7 +66,7 @@
         android:title="@string/device_category_xiaomi_title">
 
         <com.android.settings.rr.Preferences.DevicePreference
-            android:id=""
+            android:id="@+id/device_beryllium"
             android:title="@string/device_beryllium"
             app:codename="@string/device_beryllium_codename"
             app:maintainer="@string/device_beryllium_maintainer"

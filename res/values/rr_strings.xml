@@ -37,8 +37,8 @@
     <string name="about_rr">About</string>
     <string name="about_rr_summary">@null</string>
     <string name="about_r0m_summary">Everything about Renouveau</string>
-    <string name="rr_donate">Donate to development</string>
-    <string name="rr_donate_summary">Show your support for Renouveau</string>
+    <string name="renouveau_donate">Donate to development</string>
+    <string name="renouveau_donate_summary">Show your support for Renouveau</string>
     <string name="app_name">Renouveau</string>
 
    <!-- Advanced night mode brightness -->
