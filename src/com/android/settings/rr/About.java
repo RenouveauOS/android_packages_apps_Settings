@@ -94,14 +94,10 @@ private static final String RR_ROM_SHARE = "share";
         addPreferencesFromResource(R.xml.about_rom);
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getContentResolver();
-        mPitchBlackUrl = findPreference("rr_pb");
-        mTwitterUrl = findPreference("rr_twitter");
-        mSiteUrl = findPreference("rr_website");
-        mTelegramUrl = findPreference("rr_telegram");
-        mSourceUrl = findPreference("rr_source");
-        mFacebookUrl = findPreference("rr_facebook");
-        mGoogleUrl = findPreference("rr_google_plus");
-        mDonateUrl = findPreference("rr_donate");
+        mTwitterUrl = findPreference("renouveau_twitter");
+        mSiteUrl = findPreference("renouveau_website");
+        mSourceUrl = findPreference("renouveau_source");
+        mDonateUrl = findPreference("renouveau_donate");
     }
     @Override
     public boolean onPreferenceChange(Preference preference, Object value) {
@@ -110,21 +106,15 @@ private static final String RR_ROM_SHARE = "share";
 
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mSiteUrl) {
-            launchUrl("http://resurrectionremix.com/");
+            launchUrl("https://joshuadoes.com/projects/renouveau");
         } else if (preference == mPitchBlackUrl) {
             launchUrl("https://play.google.com/store/apps/details?id=pitchblack.origins.westcrip");
         } else if (preference == mTwitterUrl) {
-            launchUrl("https://twitter.com/rrosofficial");
-        } else if (preference == mTelegramUrl) {
-            launchUrl("https://t.me/resurrectionremixchat");
+            launchUrl("https://twitter.com/RenouveauOS");
         } else if (preference == mSourceUrl) {
-            launchUrl("https://github.com/ResurrectionRemix");
-        } else if (preference == mFacebookUrl) {
-            launchUrl("https://www.facebook.com/resurrectionremixrom");
-        } else if (preference == mGoogleUrl) {
-            launchUrl("https://plus.google.com/u/0/communities/109352646351468373340");
+            launchUrl("https://github.com/RenouveauOS");
         } else if (preference == mDonateUrl) {
-            launchUrl("http://forum.xda-developers.com/donatetome.php?u=4144763");
+            launchUrl("https://paypal.me/JoshuaDoes");
         } else if (preference.getKey().equals(RR_ROM_SHARE)) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);

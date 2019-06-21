@@ -119,21 +119,13 @@
     <string name="github_bdogg718k">https://github.com/bdogg718k</string>
     <string name="github_apascual89">https://github.com/apascual89</string> 
     <string name="github_mracar">https://github.com/mracar07</string> 
-    <string name="rr">Links</string>
-    <string name="rr_website_title">Website</string>
-    <string name="rr_website_summary">Get more information about Renouveau</string>
-    <string name="rr_telegram_title">Telegram</string>
-    <string name="rr_telegram_summary">Telegram on topic chat</string>
-    <string name="rr_source_title">Github</string>
-    <string name="rr_source_summary">Renouveau sources</string>
-    <string name="rr_facebook_title">Facebook</string>
-    <string name="rr_facebook_summary">Facebook community</string>
-    <string name="rr_google_plus_title">Google</string>
-    <string name="rr_google_plus_summary">Google+ community</string>
-    <string name="rr_pb_title">PitchBlack Theme</string>
-    <string name="rr_pb_summary">Official substratum theme of Resurrection Remix OS</string>
-    <string name="rr_twitter_title">Twitter</string>
-    <string name="rr_twitter_summary">Twitter account</string>
+    <string name="renouveau">Links</string>
+    <string name="renouveau_website_title">Website</string>
+    <string name="renouveau_website_summary">Get more information about Renouveau</string>
+    <string name="renouveau_source_title">GitHub</string>
+    <string name="renouveau_source_summary">Renouveau sources</string>
+    <string name="renouveau_twitter_title">Twitter</string>
+    <string name="renouveau_twitter_summary">Twitter account</string>
     <string name="maintainer_categorie_title">Official Devices</string>
     <string name="title_about">About</string>
     <string name="dev_categorie_title">Dev Tag</string>
@@ -194,8 +186,8 @@
     <string name="keywords_rr_version">renouveau version</string>
 
     <!-- Share Renouveau -->
-    <string name="share_rr">Share</string>
-    <string name="share_rr_summary">Let people know you use Renouveau</string>
+    <string name="share_renouveau">Share</string>
+    <string name="share_renouveau_summary">Let people know you use Renouveau</string>
     <string name="share_message">Try Renouveau! https://discord.gg/JDvNyMv</string>
     <string name="share_chooser_title">Share Renouveau via...</string>
 
