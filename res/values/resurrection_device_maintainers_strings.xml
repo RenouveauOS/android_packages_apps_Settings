@@ -39,7 +39,7 @@
   
   <string name="device_pioneer" translatable="false">Sony Xperia XA2</string>
   <string name="device_pioneer_codename" translatable="false">pioneer</string>
-  <string name="device_pioneer_maintainer" translatable="false">None</string>
+  <string name="device_pioneer_maintainer" translatable="false">Erisa Arrowsmith (Erisa)</string>
   
   <string name="device_beryllium" translatable="false">Xiaomi Poco F1</string>
   <string name="device_beryllium_codename" translatable="false">beryllium</string>
