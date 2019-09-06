@@ -13,7 +13,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/animation_title">
+    android:title="@string/status_bar_system_icons_title">
 
     <com.rr.settings.preferences.SystemSettingSwitchPreference
          android:key="roaming_indicator_icon"
@@ -38,6 +38,13 @@
         android:title="@string/status_bar_notif_count_title"
         android:summary="@string/status_bar_notif_count_summary"
         android:defaultValue="false" />
+
+	<com.rr.settings.preferences.SystemSettingSwitchPreference
+            android:key="use_old_mobiletype"
+            android:title="@string/use_old_mobiletype_title"
+            android:summary="@string/use_old_mobiletype_summary"
+            android:defaultValue="false" />
+
 
 
 </PreferenceScreen>
