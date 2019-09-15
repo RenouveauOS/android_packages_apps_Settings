@@ -87,6 +87,7 @@ private static final String RR_ROM_SHARE = "share";
     Preference mDonateUrl;
     Preference mPitchBlackUrl;
     Preference mTwitterUrl;
+    Preference mDiscordUrl;
     
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -98,6 +99,7 @@ private static final String RR_ROM_SHARE = "share";
         mSiteUrl = findPreference("renouveau_website");
         mSourceUrl = findPreference("renouveau_source");
         mDonateUrl = findPreference("renouveau_donate");
+        mDiscordUrl = findPreference("renouveau_discord");
     }
     @Override
     public boolean onPreferenceChange(Preference preference, Object value) {
@@ -115,6 +117,8 @@ private static final String RR_ROM_SHARE = "share";
             launchUrl("https://github.com/RenouveauOS");
         } else if (preference == mDonateUrl) {
             launchUrl("https://paypal.me/JoshuaDoes");
+        } else if (preference == mDiscordUrl) {
+            launchUrl("https://discord.gg/JDvNyMv");
         } else if (preference.getKey().equals(RR_ROM_SHARE)) {
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);

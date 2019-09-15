@@ -85,6 +85,12 @@
                 			
         </PreferenceCategory>
 
+        <Preference
+            android:key="rr_discord"
+            android:icon="@drawable/renouveau_discord_icon"
+            android:title="@string/renouveau_discord"
+            android:summary="@string/renouveau_discord_summary" />
+
         <PreferenceCategory
             android:key="maintainer_categorie"
             android:title="@string/maintainer_categorie_title">

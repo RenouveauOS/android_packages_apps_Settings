@@ -40,6 +40,8 @@
     <string name="about_r0m_summary">Everything about Renouveau</string>
     <string name="renouveau_donate">Donate to development</string>
     <string name="renouveau_donate_summary">Show your support for Renouveau</string>
+    <string name="renouveau_discord">Join the Discord server</string>
+    <string name="renouveau_discord_summary">Join the Discord server for support and to discuss Renouveau</string>
     <string name="app_name">Renouveau</string>
 
    <!-- Advanced night mode brightness -->
