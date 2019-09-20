@@ -21,6 +21,7 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.RemoteException;
+import android.hardware.fingerprint.FingerprintManager;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
@@ -47,6 +48,10 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
 public class LockSettings extends SettingsPreferenceFragment implements
 Preference.OnPreferenceChangeListener {
+    private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+
+    private FingerprintManager mFingerprintManager;
+    private SwitchPreference mFingerprintVib;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,11 +61,26 @@ Preference.OnPreferenceChangeListener {
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
         Resources resources = getResources();
+        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);		
+        mFingerprintVib = (SwitchPreference) findPreference(FINGERPRINT_VIB);		
+        if (!mFingerprintManager.isHardwareDetected()){		
+            prefSet.removePreference(mFingerprintVib);		
+        } else {		
+        mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),		
+                Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));		
+        mFingerprintVib.setOnPreferenceChangeListener(this);		
+        }
 
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
+         if (preference == mFingerprintVib) {		
+            boolean value = (Boolean) newValue;		
+            Settings.System.putInt(getActivity().getContentResolver(),		
+                    Settings.System.FINGERPRINT_SUCCESS_VIB, value ? 1 : 0);		
+            return true;		
+        }
         return false;
     }
 
