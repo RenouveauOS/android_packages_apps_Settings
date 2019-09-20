@@ -64,7 +64,7 @@ Preference.OnPreferenceChangeListener {
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);		
         mFingerprintVib = (SwitchPreference) findPreference(FINGERPRINT_VIB);		
         if (!mFingerprintManager.isHardwareDetected()){		
-            prefScreen.removePreference(mFingerprintVib);		
+            prefSet.removePreference(mFingerprintVib);		
         } else {		
         mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),		
                 Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));		
