@@ -48,6 +48,10 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
 public class LockSettings extends SettingsPreferenceFragment implements
 Preference.OnPreferenceChangeListener {
+    private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+
+    private FingerprintManager mFingerprintManager;
+    private SwitchPreference mFingerprintVib;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
