@@ -25,12 +25,11 @@
         android:defaultValue="true" />
 
     <com.rr.settings.preferences.SystemSettingSwitchPreference
-        android:key="fingerprint_sucess_vib"
+        android:key="fingerprint_success_vib"
         android:title="@string/fprint_sucess_vib_title"
         android:summary="@string/fprint_sucess_vib_summary"
-        android:defaultValue="true"
-	android:persistent="false" 
-	settings:controller="com.android.settings.sound.FpSuccessAuthVibPreferenceController" />
+	android:persistent="false"						       
+        android:defaultValue="true" />
 	
     <com.rr.settings.preferences.SystemSettingSwitchPreference
         android:key="fp_unlock_keystore"
