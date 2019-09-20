@@ -28,8 +28,8 @@
         android:key="fingerprint_success_vib"
         android:title="@string/fprint_sucess_vib_title"
         android:summary="@string/fprint_sucess_vib_summary"
-	android:persistent="false"						       
-        android:defaultValue="true" />
+	android:defaultValue="true" 
+	android:persistent="false" />
 	
     <com.rr.settings.preferences.SystemSettingSwitchPreference
         android:key="fp_unlock_keystore"
