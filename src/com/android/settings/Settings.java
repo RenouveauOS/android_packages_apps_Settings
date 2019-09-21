@@ -190,4 +190,8 @@ public class Settings extends SettingsActivity {
     public static class PieControlSettingsActivity extends SettingsActivity { /* empty */ }
 
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+    
+    // Ambient play
+    public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
+    
 }
