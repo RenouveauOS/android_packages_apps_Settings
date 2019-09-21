@@ -16,7 +16,7 @@
 
 package com.android.settings.core.gateway;
 
-import com.android.settings.custom.ambient.AmbientPlaySettings;
+import com.android.settings.custom.ambient.history.AmbientPlayHistory;
 import com.android.settings.DateTimeSettings;
 import com.android.settings.DeviceAdminSettings;
 import com.android.settings.DisplaySettings;
@@ -289,6 +289,7 @@ public class SettingsGateway {
             LockscreenItemSettings.class.getName(),
 	    PowerMenuActions.class.getName(),
             RunningServices.class.getName(),
+	    AmbientPlayHistory.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
