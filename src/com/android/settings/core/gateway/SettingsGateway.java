@@ -279,7 +279,6 @@ public class SettingsGateway {
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             MainSettingsLayout.class.getName(),
             About.class.getName(),
-            AmbientPlaySettings.class.getName(),
 //            NavigationSettingsActivity.class.getName(),
             SmartbarSettings.class.getName(),
             FlingSettings.class.getName(),
