@@ -24,6 +24,7 @@ import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 import android.text.TextUtils;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 
@@ -36,16 +37,15 @@ public class FreeformWindowsPreferenceController extends DeveloperOptionsPrefere
     static final int SETTING_VALUE_OFF = 0;
     @VisibleForTesting
     static final int SETTING_VALUE_ON = 1;
-    @VisibleForTesting
-    static final String USER_BUILD_TYPE = "user";
-
+    
     public FreeformWindowsPreferenceController(Context context) {
         super(context);
     }
 
     @Override
     public boolean isAvailable() {
-        return !TextUtils.equals(USER_BUILD_TYPE, getBuildType());
+       return mContext.getResources().getBoolean(
+                R.bool.config_freeformWindowManagement);
     }
 
     @Override
@@ -77,8 +77,5 @@ public class FreeformWindowsPreferenceController extends DeveloperOptionsPrefere
         ((SwitchPreference) mPreference).setChecked(false);
     }
 
-    @VisibleForTesting
-    String getBuildType() {
-        return Build.TYPE;
-    }
+   
 }
