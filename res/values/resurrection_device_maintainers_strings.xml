@@ -19,30 +19,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-  <string name="device_category_google_title">GOOGLE</string>
-  <string name="device_category_motorola_title">MOTOROLA</string>
   <string name="device_category_samsung_title">SAMSUNG</string>
-  <string name="device_category_sony_title">SONY</string>
-  <string name="device_category_xiaomi_title">XIAOMI</string>
-  
-  <string name="device_google_marlin" translatable="false">Google Pixel XL</string>
-  <string name="device_google_marlin_codename" translatable="false">marlin</string>
-  <string name="device_google_marlin_maintainer" translatable="false">None</string>
-  
-  <string name="device_cedric" translatable="false">Motorola Moto G5</string>
-  <string name="device_cedric_codename" translatable="false">cedric</string>
-  <string name="device_cedric_maintainer" translatable="false">None</string>
-  
+
   <string name="device_nobleltetmo" translatable="false">Samsung Galaxy Note 5 (T-Mobile)</string>
   <string name="device_nobleltetmo_codename" translatable="false">nobleltetmo</string>
   <string name="device_nobleltetmo_maintainer" translatable="false">Joshua Wickings (JoshuaDoes)</string>
   
-  <string name="device_pioneer" translatable="false">Sony Xperia XA2</string>
-  <string name="device_pioneer_codename" translatable="false">pioneer</string>
-  <string name="device_pioneer_maintainer" translatable="false">Erisa Arrowsmith (Erisa)</string>
-  
-  <string name="device_beryllium" translatable="false">Xiaomi Poco F1</string>
-  <string name="device_beryllium_codename" translatable="false">beryllium</string>
-  <string name="device_beryllium_maintainer" translatable="false">None</string>
+  <string name="device_t0lte" translatable="false">Samsung Galaxy Note 2 (LTE)</string>
+  <string name="device_t0lte_codename" translatable="false">t0lte</string>
+  <string name="device_t0lte_maintainer" translatable="false">Joshua Wickings (JoshuaDoes)</string>
 
 </resources>

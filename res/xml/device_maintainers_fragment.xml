@@ -3,37 +3,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/maintainer_categorie_title">
+
     <Preference
          style="?android:preferenceInformationStyle"
          android:title="@string/maintainers_note_title"
          android:summary="@string/maintainers_note_title_summary"
          android:selectable="false" />
-
-    <PreferenceCategory
-        android:id="@+id/device_category_google"
-        android:title="@string/device_category_google_title">
-
-        <com.android.settings.rr.Preferences.DevicePreference
-            android:id="@+id/device_google_marlin"
-            android:title="@string/device_google_marlin"
-            app:codename="@string/device_google_marlin_codename"
-            app:maintainer="@string/device_google_marlin_maintainer"
-            app:type="phone" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:id="@+id/device_category_motorola"
-        android:title="@string/device_category_motorola_title">
-
-        <com.android.settings.rr.Preferences.DevicePreference
-            android:id="@+id/device_cedric"
-            android:title="@string/device_cedric"
-            app:codename="@string/device_cedric_codename"
-            app:maintainer="@string/device_cedric_maintainer"
-            app:type="phone" />
-
-    </PreferenceCategory>
 
     <PreferenceCategory
         android:id="@+id/device_category_samsung"
@@ -46,31 +21,13 @@
             app:maintainer="@string/device_nobleltetmo_maintainer"
             app:type="phone" />
 
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:id="@+id/device_category_sony"
-        android:title="@string/device_category_sony_title">
-
         <com.android.settings.rr.Preferences.DevicePreference
-            android:id="@+id/device_pioneer"
-            android:title="@string/device_pioneer"
-            app:codename="@string/device_pioneer_codename"
-            app:maintainer="@string/device_pioneer_maintainer"
+            android:id="@+id/device_t0lte"
+            android:title="@string/device_t0lte"
+            app:codename="@string/device_t0lte_codename"
+            app:maintainer="@string/device_t0lte_maintainer"
             app:type="phone" />
 
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:id="@+id/device_category_xiaomi"
-        android:title="@string/device_category_xiaomi_title">
-
-        <com.android.settings.rr.Preferences.DevicePreference
-            android:id="@+id/device_beryllium"
-            android:title="@string/device_beryllium"
-            app:codename="@string/device_beryllium_codename"
-            app:maintainer="@string/device_beryllium_maintainer"
-            app:type="phone" />
-
-    </PreferenceCategory>
 </PreferenceScreen>
